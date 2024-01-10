@@ -1,6 +1,6 @@
 # How to use
 
-* First, download this repository from Github either by downloading it as a ZIP archive (the big green button somewhere at the top of the page), or just `git clone` it
+* First, download this repository from Github either as a ZIP archive (the big green button somewhere at the top of the page), or just `git clone` it
 
 * Fill `profile_ids.txt` with user ids:
 

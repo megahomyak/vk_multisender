@@ -10,7 +10,7 @@
 1623786238
 ```
 
-* Paste your VKontakte user token to `user_token.txt`. You can get the token from https://vkhost.github.io . I don't trust that website personally, so be sure to only specify that it should have "access to messages" and "access anytime", nothing more. You will be able to disable this thing in your VK profile's security settings, namely the "Connected apps" section. However, if you're more concerned about security than me, you can search for official methods. They are boring bureaucratic shit
+* Paste your VKontakte user token to `user_token.txt`. You can get the token from https://vkhost.github.io . I don't trust that website personally, so be sure to only specify that it should have "access to messages" and "access anytime", nothing more. You will be able to disable this thing in your VK profile's security settings, namely the "Connected apps" section. However, if you're more concerned about security than me, you can search for official methods (yes, this one is not official). They are boring bureaucratic shit
 
 * Write your message in `message.txt`
 

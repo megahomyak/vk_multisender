@@ -6,13 +6,10 @@ authors = ["megahomyak <g.megahomyak@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "<3.13,>=3.8"
+python = "^3.8"
 vkbottle = "^4.3.12"
 hampst = "^0.1.0"
 
-
-[tool.poetry.group.dev.dependencies]
-pyinstaller = "^6.3.0"
 
 [build-system]
 requires = ["poetry-core"]

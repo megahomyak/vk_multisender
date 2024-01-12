@@ -1,8 +1,10 @@
-# How to use
+# Как использовать (для Windows)
 
-* First, download this repository from Github either as a ZIP archive (the big green button somewhere at the top of the page), or just `git clone` it
+* Установите Python
 
-* Fill `profile_ids.txt` with user ids:
+* Скачайте версию этого репозитория с помощью большой зелёной кнопки на верху страницы
+
+* Создайте и заполните файл `profile_ids.txt` айдишниками пользователей (можете их получить с https://regvk.com/). Пример:
 
 ```
 2638423981
@@ -10,13 +12,8 @@
 1623786238
 ```
 
-* Paste your VKontakte user token to `user_token.txt`. You can get the token from https://vkhost.github.io . I don't trust that website personally, so be sure to only specify that it should have "access to messages" and "access anytime", nothing more. You will be able to disable this thing in your VK profile's security settings, namely the "Connected apps" section. However, if you're more concerned about security than me, you can search for official methods (yes, this one is not official). They are boring bureaucratic shit
+* Вставьте свой токен от ВКонтакте в `user_token.txt`. Вы можете получить его, например, с https://vkhost.github.io. Этот способ неофициальный и может угнать ваши токены, поэтому используйте с осторожностью. Пока что всё было хорошо с ним, но я ничего не гарантирую. Установите права доступа "Сообщения" и "Доступ в любое время" (через кнопку "Настройки") перед получением токена, чтобы было хоть чуть-чуть безопаснее. Отключить это вы сможете через настройки подключённых приложений в настройках профиля ВКонтакте. Если вы знаете более безопасный способ, используйте его. Официальные мне показались уж слишком неудобными
 
-* Write your message in `message.txt`
+* Напишите своё сообщение в `message.txt`
 
-* Do either of these:
-    * Go into the Poetry shell using `poetry shell` (if you don't know what Poetry is and how to install it, google "Python Poetry"; however, if you don't want to be invested in this, read further)
-    * Install dependencies using `pip install {dependency_name}`, where `{dependency_name}` is taken from `pyproject.toml`'s `[tool.poetry.dependencies]` section (you don't have to do it for `python`)
-    * Run `poetry run python program.py` (then you don't have to do the next step)
-
-* Run `python program.py`
+* Запустите `run.bat` (например, нажав по нему дважды мышкой)
